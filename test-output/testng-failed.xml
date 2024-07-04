@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testngwithbaseclass.Automateopportunityfunctionality">
+      <class name="org.testngwithbaseclasspageobjectmodel.AutomateWorktype">
         <methods>
-          <include name="Createopportunity"/>
+          <include name="nonworktype"/>
           <include name="preCondition"/>
-          <include name="postCondition"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- testngwithbaseclass.Automateopportunityfunctionality -->
+      </class> <!-- org.testngwithbaseclasspageobjectmodel.AutomateWorktype -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
